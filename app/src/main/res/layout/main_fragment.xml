@@ -22,7 +22,10 @@
             android:layout_height="wrap_content"
             android:text="city"
             android:textAlignment="center"
+            android:fontFamily="sans-serif-thin"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#9AFFFFFF"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
@@ -31,13 +34,16 @@
             android:layout_height="wrap_content"
             android:text="date"
             android:textAlignment="center"
+            android:fontFamily="sans-serif-thin"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#9AFFFFFF"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/icon"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:src="@android:drawable/btn_star_big_on" />
 
         <TextView
@@ -46,8 +52,10 @@
             android:layout_height="wrap_content"
             android:text="temp"
             android:textAlignment="center"
+            android:fontFamily="sans-serif-thin"
             android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-            android:textStyle="bold" />
+            android:textColor="#9AFFFFFF"
+            android:textSize="80sp" />
 
         <TextView
             android:id="@+id/description"
@@ -55,7 +63,10 @@
             android:layout_height="wrap_content"
             android:text="description"
             android:textAlignment="center"
+            android:fontFamily="sans-serif-thin"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#9AFFFFFF"
+            android:textSize="18sp"
             android:textStyle="bold" />
     </LinearLayout>
 
